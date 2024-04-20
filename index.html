@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8"> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Capewa</title>
+
+
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" class="stylesheet">
+</head> 
+
+<body>
+    
+    <header class="header-area">
+        <div class="container">
+            <div class="header">
+               
+                <a href="" class="logo">
+                    <img src="logo.png" alt="" class="signature">
+                </a>
+                   
+                <ul class="navbar">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">Sobre mim</a></li>
+                    <li><a href="#projects">Projectos</a></li>
+                    <li><a href="#contact">Contacto</a></li>
+                </ul>
+                
+                <div class="menu_icon">
+                    <i class="fa fa-bars"></i>
+                </div>
+
+            </div>
+        </div> 
+    </header>
+    
+    <div class="FirstElement" id="home">
+        <div class="profile-photo">
+            <img src="files/photo!!.jpeg" alt="profile picture">
+        </div>
+        <div class="profile-text">
+            <h5>Olá, sou </h5><br>
+            <h1>José Capewa</h1><br>
+            <p>Seja bem-vindo/a ao meu portfólio! Sou um programador apaixonado, com um forte desejo de criar soluções inovadoras e ultrapassar os limites da tecnologia. Com um profundo amor pela codificação e pela solução de problemas, estou constantemente em busca de oportunidades para aprender e crescer neste campo em constante evolução.</p>
+            
+            <div class="btn-group">
+                <a href="#" class="btn   active">Baixar currículo</a>
+                <a href="mailto:capewajose@gmail.com" class="btn">Contacto</a>
+            </div>
+
+            <div class="social">
+                <a href="mailto:capewajose@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="https://github.com/josecapewa"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </div>
+    </div>
+
+    <section class="about-area" id="about">
+        <div class="container">
+            <div class="about">
+                
+                <div class="about-content">
+                    <h4>Sobre mim</h4>
+                    <ul>
+                      <li>Estou atualmente no penúltimo ano do Curso Técnico de Informática. Criei bases sólidas relacionadas à programação, particularmente em áreas como JavaScript, C#, SQL, GDScript, Git, and GitHub.</li>
+                      <li> Minha experiência nessas áreas me permite abordar projetos com confiança e entregar resultados de alta qualidade. Tenho uma forte crença no valor do aprendizado contínuo e de permanecer adaptável no mundo em constante evolução da programação.</li>
+                      <li> Busco ativamente oportunidades para expandir meus conhecimentos e habilidades, adotando novas tecnologias e abordagens. Sinta-se à vontade para explorar meu trabalho e entrar em contato caso tenha alguma dúvida ou oportunidade de colaborar. </li>
+                    </ul>
+                </div>
+                                  
+                <div class="about-skills">
+                    <ul>
+                        <li>Nome: José Capewa</li>
+                        <li>Idade: 17</li>     
+                        <li>De: Angola</li>
+                        <li>Email:capewajose@gmail.com</li>
+                        <li>Disponibilidade: Tempo Integral</li>
+                        <li>Experiência&lt;1yr</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="project-content" id="projects">
+        <div class="container">
+            <div class="project-title">
+                <h4>Meus Projectos</h4>
+                <p>Conheça meus projectos</p>
+            </div>
+            <div class="projects">
+                <div class="project">
+                    <i class="fa fa-gamepad"></i>
+                    <h4>Não Te Irrites</h4>
+                    <p>Um jogo desenvolvido em C# e GDScript. Uma forma fácil de relembrar o passado, trazendo, sem custos, uma maneira gratuíta e simples de poder desfrutar do clássico jogo com aqueles ao seu redor. </p>
+                </div>
+                 <div class="project">
+                    <i class="fa fa-plus-square"></i>
+                    <h4>Gerenciador de Farmácia</h4>
+                    <p>Um sistema para facilitar o gerenciamento de funcionários e produtos de uma farmácia.</p>
+                </div>
+                <div class="project">
+                    <i class="fa fa-desktop"></i>
+                    <h4>Portfólio</h4>
+                    <p>Criei um site de portfólio usando HTML, CSS e JavaScript, que serve como plataforma para me apresentar  e compartilhar meus projetos.</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+    
+    <section class="contact-content" id="contact">
+        <div class="container">
+            <div class="contact-title">
+                <h4>Contacte-me</h4>
+                <p></p>
+            </div>
+            <div class="contact">
+                <form name="submitToGoogleSheet">
+                    <input type="text" name="NAME" placeholder="Nome" required>
+                    <input type="email" name="EMAIL" placeholder="Email" required>
+                    <input type="text" name="SUBJECT" placeholder="Assunto">
+                    <textarea name="MESSAGE" placeholder="Mensagem"></textarea>
+                    <input type="submit" value="Enviar Mensagem" class="submit">
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </section>
+    
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+    
+   <footer class="footer">
+    <small class="copyright">&copy; Copyright 2024. Todos os direitos reservados.</small>
+   </footer>
+
+</body>
+</html>
